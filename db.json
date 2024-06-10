@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Gameboy Classic",
+      "valor": "60,00",
+      "imagem": "assets/gameboy.png"
+    },
+    {
+      "id": 2,
+      "nome": "Pelúcia Eevee",
+      "valor": "25,00",
+      "imagem": "assets/eevee.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Capinhas",
+      "valor": "15,00",
+      "imagem": "assets/capinhas.png"
+    },
+    {
+      "id": 4,
+      "nome": "Vaso chikorita",
+      "valor": "10,00",
+      "imagem": "assets/chikorita.png"
+    },
+    {
+      "id": 5,
+      "nome": "Jogo Pokémon Red",
+      "valor": "45,00",
+      "imagem": "assets/red.jpg"
+    },
+    {
+      "id": "70ef",
+      "nome": "Camisa Charmander",
+      "valor": "25,00",
+      "imagem": "https://img.elo7.com.br/product/main/2B8564B/camiseta-laranja-do-charmander-anime-pokemon-anime.jpg"
+    }
+  ]
+}

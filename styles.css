@@ -1,0 +1,237 @@
+:root {
+    --cor-de-fundo: #7ea576;
+    --cor-de-fonte-um: white;
+    --cor-de-fonte-dois: #394D35;
+
+}
+
+body {
+    margin: 0;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: var(--cor-de-fundo);
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 96px;
+}
+
+.cabecalho__imagem {
+    height: 2rem;
+}
+
+.cabecalho__titulo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/* Main */
+
+/* Meus produtos */
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+
+
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.produtos__titulo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.produtos__lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-bottom: 200px;
+}
+
+.produtos__box {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    background-color: var(--cor-de-fundo);
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    width: 12.25rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 50);
+}
+
+.produtos__box__imagem {
+    max-height: 10.875rem;
+    max-width: 11rem;
+    border: solid 5px;
+    border-radius: 10px;
+
+}
+
+.produtos__box__nome,
+.produtos__box__box__preco {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-de-fonte-um);
+}
+
+.produtos__box__preco {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.imagem__cifrao,
+.imagem__lixeira {
+    height: 20px;
+    width: 20px;
+}
+
+/* Cadastrar produtos */
+
+.adicionar {}
+
+.adicionar__titulo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.adicionar__form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.adicionar__form__nome,
+.adicionar__form__valor,
+.adicionar__form__imagem {
+    height: 58px;
+    width: 392px;
+    border: solid 3px var(--cor-de-fonte-dois);
+    border-radius: 29px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-de-fonte-dois);
+    padding-left: 30px;
+
+}
+
+.adicionar__form__nome::placeholder,
+.adicionar__form__valor::placeholder,
+.adicionar__form__imagem::placeholder {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-de-fonte-dois);
+}
+
+.adicionar__botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 40px;
+}
+
+.botao__guardar {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--cor-de-fonte-um);
+    background-color: var(--cor-de-fonte-dois);
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    border: solid 3px var(--cor-de-fonte-dois);
+}
+
+.botao__limpar {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--cor-de-fonte-dois);
+    width: 188px;
+    height: 55px;
+    border-radius: 15px;
+    border: solid 3px var(--cor-de-fonte-dois);
+}
+
+/* Rodapé */
+
+footer {
+    background-color: var(--cor-de-fundo);
+    margin: 0;
+    padding: 0;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 232px;
+}
+
+.rodape__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape__imagem {
+    height: 2rem;
+}
+
+.rodape__titulo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.rodape__subtitulo,
+.rodape__paragrafo {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+}

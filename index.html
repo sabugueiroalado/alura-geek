@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+
+    <!-- Link ICON -->
+    <link rel="shortcut icon" type="imagex/x-icon" href="assets/jogos.ico">
+
+    <!-- Link folhas de estilo CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonte do projeto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <section class="cabecalho">
+            <img class="cabecalho__imagem" src="assets/kokoro.png"
+                alt="3 corações com estética gamer, lembra muito The legends os Zelda">
+            <h1 class="cabecalho__titulo">AluraGeek</h1>
+        </section>
+    </header>
+
+    <!-- Seção principal da página -->
+    <main>
+        <section class="principal">
+            <div class="produtos">
+                <h3 class="produtos__titulo">MEUS PRODUTOS:</h3>
+                <div class="produtos__lista">
+                    <div class="produtos__box">
+                        <img class="produtos__box__imagem" src="assets/gameboy.png" id="produtosImg">
+                        <p class="produtos__box__nome" id="produtosNome">Gameboy Classic</p>
+                        <div class="produtos__box__preco">
+                            <img class="imagem__cifrao" src="assets/cifrao.png" alt="Imagem de um cifrão">
+                            <p class="produtos__box__box__preco" id="produtosPreco"><strong>60,00</strong></p>
+                            <img class="imagem__lixeira" src="assets/lixeira.png" alt="Imagem de uma lixeira">
+                        </div>
+                    </div>
+
+                    <div class="produtos__box">
+                        <img class="produtos__box__imagem" src="assets/eevee.jpg" id="produtosImg">
+                        <p class="produtos__box__nome" id="produtosNome">Pelúcia Eevee</p>
+                        <div class="produtos__box__preco">
+                            <img class="imagem__cifrao" src="assets/cifrao.png" alt="Imagem de um cifrão">
+                            <p class="produtos__box__box__preco" id="produtosPreco"><strong>25,00</strong></p>
+                            <img class="imagem__lixeira" src="assets/lixeira.png" alt="Imagem de uma lixeira">
+                        </div>
+                    </div>
+
+                    <div class="produtos__box">
+                        <img class="produtos__box__imagem" src="assets/capinhas.png" id="produtosImg">
+                        <p class="produtos__box__nome" id="produtosNome">Capinhas</p>
+                        <div class="produtos__box__preco">
+                            <img class="imagem__cifrao" src="assets/cifrao.png" alt="Imagem de um cifrão">
+                            <p class="produtos__box__box__preco" id="produtosPreco"><strong>15,00</strong></p>
+                            <img class="imagem__lixeira" src="assets/lixeira.png" alt="Imagem de uma lixeira">
+                        </div>
+                    </div>
+
+                    <div class="produtos__box">
+                        <img class="produtos__box__imagem" src="assets/chikorita.png" id="produtosImg">
+                        <p class="produtos__box__nome" id="produtosNome">Vaso chikorita</p>
+                        <div class="produtos__box__preco">
+                            <img class="imagem__cifrao" src="assets/cifrao.png" alt="Imagem de um cifrão">
+                            <p class="produtos__box__box__preco" id="produtosPreco"><strong>10,00</strong></p>
+                            <img class="imagem__lixeira" src="assets/lixeira.png" alt="Imagem de uma lixeira">
+                        </div>
+                    </div>
+                    <div class="produtos__box">
+                        <img class="produtos__box__imagem" src="assets/red.jpg" id="produtosImg">
+                        <p class="produtos__box__nome" id="produtosNome">Jogo Pokémon Red</p>
+                        <div class="produtos__box__preco">
+                            <img class="imagem__cifrao" src="assets/cifrao.png" alt="Imagem de um cifrão">
+                            <p class="produtos__box__box__preco" id="produtosPreco"><strong>45,00</strong></p>
+                            <img class="imagem__lixeira" src="assets/lixeira.png" alt="Imagem de uma lixeira">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="adicionar">
+                <h3 class="adicionar__titulo">ADICIONAR <br>PRODUTO:</h3>
+                <form class="adicionar__form">
+                    <input class="adicionar__form__nome" type="text" placeholder="nome..." id="nome">
+                    <input class="adicionar__form__valor" type="text" placeholder="valor..." id="valor">
+                    <input class="adicionar__form__imagem" type="text" placeholder="imagem..." id="imagem">
+                </form>
+                <div class="adicionar__botoes">
+                    <button class="botao__guardar" id="guardar">Guardar</button>
+                    <button class="botao__limpar" id="limpar">Limpar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <section class="rodape">
+            <div class="rodape__box">
+                <img class="rodape__imagem" src="assets/kokoro.png"
+                    alt="3 corações com estética gamer, lembra muito The legends os Zelda">
+                <h1 class="rodape__titulo">AluraGeek</h1>
+            </div>
+            <h3 class="rodape__subtitulo">Desenvolvido por [Gabrie I. Heinz]</h3>
+            <p class="rodape__paragrafo">Alura Latam 2024</p>
+        </section>
+    </footer>
+
+</body>
+<script type="module" src="js/list.js"></script>
+<script type="module" src="js/fetch.js"></script>
+<script type="module" src="js/create.js"></script>
+</html>
